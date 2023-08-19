@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Expression Recognition Bot</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>Facial Expression Recognition Bot</h1>
+    <div class="content-wrapper">
+      <video id="video" width="720" height="560" autoplay muted></video>
+
+      <!-- Container for the expression description -->
+      <div id="expressionContainer">
+          <h1>The user is currently feeling...</h1>
+          <h2 id="expressionText"></h2>
+      </div>
+  </div>
+    <script defer src="scripts/face-api.min.js"></script>
+    <script defer src="scripts/main.js"></script>
+
+    <!-- ... existing content ... -->
+
+<div class="expressions-info">
+  <h2>Our facial recognition bot identifies the following expressions based on live visual cues from your face:</h2>
+  <ul>
+      <li>
+          <img src="images/neutral.jpg" alt="Neutral face example">
+          Neutral
+      </li>
+      <li>
+          <img src="images/happy.jpg" alt="Happy face example">
+          Happy
+      </li>
+      <li>
+          <img src="images/sad.jpg" alt="Sad face example">
+          Sad
+      </li>
+      <li>
+          <img src="images/angry.jpg" alt="Angry face example">
+          Angry
+      </li>
+      <li>
+          <img src="images/fearful.jpg" alt="Fearful face example">
+          Fearful
+      </li>
+      <li>
+          <img src="images/disgusted.jpg" alt="Disgusted face example">
+          Disgusted
+      </li>
+      <li>
+          <img src="images/surprised.jpg" alt="Surprised face example">
+          Surprised
+      </li>
+  </ul>
+</div>
+
+</body>
+</html>
