@@ -1,5 +1,5 @@
 ### ✨ Live demo: https://facialrecognitionapp.onrender.com/
-
+(click on "allow" when asked to use your camera for it to work)
 
 ## 👀 Overview
 The Facial Expression Recognition Bot is a web app designed to detect and interpret facial expressions in real-time. Using machine learning algorithms built on top of TensorFlow JS, the bot can identify a range of emotions across 7 categories:
